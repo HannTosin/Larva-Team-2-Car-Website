@@ -1,0 +1,91 @@
+header{
+    position: absolute;
+	z-index: 99999;
+	width: 100%;
+	height: 14vh;
+	background-color: #232323;
+    transition: all 0.8s ease-in-out 0s;
+}
+
+header .navbar {
+	padding: 10px 0px;
+}
+
+.navbar .navbar-brand h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.navbar .navbar-brand h2 em {
+	font-style: normal;
+	color: #f33f3f;
+}
+
+#navbarResponsive {
+	z-index: 999;
+}
+
+.navbar-collapse {
+	text-align:center;
+}
+
+.navbar .navbar-nav .nav-item {
+	margin: 0px 12%;
+}
+
+.navbar .navbar-nav a.nav-link {
+	text-transform: capitalize;
+	font-size: 1.3rem;
+    width: 100%;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: #e8dddd;
+	transition: all 0.5s;
+	margin-top: 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+	color: #c88346;
+	padding-bottom: 15px;
+    /* background-color: #fff; */
+	border-bottom: 3px solid #f33f3f;
+}
+
+
+.navbar .navbar-toggler {
+	border-color: #fff;
+	background-color: #df5151;	
+	height: 7vh;
+	outline: none;
+	border-radius: 5px;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar .navbar-toggler-icon:after {
+	color: #f33f3f;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'FontAwesome';
+}
+
+.background-header {
+	top: 0;
+	position: fixed;
+	background-color: #fff!important;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-brand {
+	float: 	left;
+	margin-top: -12px;
+	outline: none;
+}
