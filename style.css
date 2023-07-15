@@ -94,3 +94,36 @@ header .navbar {
 	margin-top: -12px;
 	outline: none;
 }
+
+
+/* Hero Section */
+/* 
+.carousel-inner > .item > img {
+    width:640px;
+    height:100px;
+    object-fit: contain;
+    padding-top: 100%;
+  } */
+
+  .CarOne{
+    background-image: url(images/pexels-aleksey-kuprikov-3786091.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    padding: 25% 0%;
+}
+.CarTwo{
+    background-image: url(images/pexels-yurii-hlei-1545743.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    padding: 25% 0%;
+}
+
+.CarThree{
+    background-image: url(images/pexels-pixabay-164634.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    padding: 25% 0%;
+}
