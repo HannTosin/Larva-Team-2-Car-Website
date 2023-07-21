@@ -197,7 +197,8 @@ main .row .prod6{
 
 .about{
 	margin-top: 5%;
-	margin-bottom: 3%;
+	margin-bottom: 1%;
+	margin-left: 2%;
 }
 
 .row button{
@@ -214,4 +215,23 @@ main .row .prod6{
 
 .row .list-group{
 	margin-top: 3%;
+}
+.hey{
+	display: flex;
+	justify-content: space-around;
+}
+.hey p{
+	margin-left: 3%;
+}
+.hey button{
+	margin-top: 8%;
+	border: none;
+	padding: 1%;
+	border-radius: 8px;
+}
+.line{
+	border: 1px solid rgba(0, 0, 0, 0.112);
+	width: 93%;
+	margin-bottom: 4%;
+	margin-left: 4%;
 }
