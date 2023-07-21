@@ -127,3 +127,91 @@ header .navbar {
 	background-position: center center;
     padding: 25% 0%;
 }
+
+main{
+	margin-top: 5%;
+}
+
+main .main-header{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin-left: 3.5%;
+
+}
+
+main .viewmore{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+
+main .row{
+	display: flex;
+	justify-content: space-around;
+	width: 99vw;
+	margin: auto;
+}
+
+main .row .prod1{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+main .row .prod2{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+main .row .prod3{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+main .row .prod4{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+main .row .prod5{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+main .row .prod6{
+	margin-top: 5%;
+	border: 0.3px solid lightgrey;
+	width: 30%;
+}
+
+.row span img{
+	width: 13px;
+}
+
+.about{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.row button{
+	width: 20%;
+	border-radius: 5px;
+	background-color: #df5151;
+	color: white;
+	margin-top: 4%;
+}
+
+.row button:hover{
+	background-color: #232323;
+}
+
+.row .list-group{
+	margin-top: 3%;
+}
