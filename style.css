@@ -6,6 +6,12 @@ header{
 	background-color: #232323;
     transition: all 0.8s ease-in-out 0s;
 }
+/* body{
+	background-image: url(images/downloadrrrr.jpeg);
+	background-position: center;
+	background-size: ;
+} */
+
 
 header .navbar {
 	padding: 10px 0px;
@@ -364,4 +370,13 @@ main .row .prod6{
 
 .team1 .team1-body p{
 	color: aliceblue;
+}
+
+@media (max-width: 400px){
+	body{
+		/* background-image: url(images/downloadrrrr.jpeg);
+	    background-position: inherit;
+	    background-size: contain; */
+		padding-right: 10px;
+	}
 }
