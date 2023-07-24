@@ -237,6 +237,10 @@ main .row .prod6{
 	margin-left: 4%;
 }
 
+/* .about{
+	border: 1px solid black;
+} */
+
 .about .about-head h2{
 	color: whitesmoke;
 	font-size: 6.5em;
@@ -247,12 +251,17 @@ main .row .prod6{
 	border: 1px solid black;
 } */
 
-.about .body-right{
+/* .about .body-right{
 	background-image: url(images/about-1-570x350.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+} */
+
+.about .body-right{
+	overflow: hidden;	
 }
+
 .row button{
 	width: 20%;
 	border-radius: 5px;
