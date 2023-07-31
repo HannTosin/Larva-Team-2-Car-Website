@@ -6,11 +6,65 @@ header{
 	background-color: #232323;
     transition: all 0.8s ease-in-out 0s;
 }
-/* body{
-	background-image: url(images/downloadrrrr.jpeg);
-	background-position: center;
-	background-size: ;
-} */
+
+body{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.div7{
+	/* background-image: url(images/blog-1-370x270.jpg); */
+	
+}
+.Adebart{
+	margin-bottom: 2vh;
+}
+.dett{
+	text-decoration: none;
+	color:red;
+}
+.img1{
+	width: 100%;
+	
+}
+footer{
+	text-align: center;
+}
+.div11{
+	height: 10px;
+	/* background-color: rgba(100, 98, 98, 0.651); */
+	margin: auto;
+	width: 80vw;
+	/* border-radius: 10px; */
+	border-bottom:1px solid gray;
+	
+}
+.p1{
+	margin-top: 10px;
+	font-family:'Open Sans', sans-serif ;
+}
+.p2{
+	font-size: 12px;
+	color: grey;
+	font-family:'Open Sans', sans-serif ;
+	margin-bottom: 20px;
+}
+.buut{
+	background-color: #df5151;
+	border-radius: 5px;
+	border: 0px solid #df5151;
+	font-size: 15px;
+	color: white;
+}
+.div10{
+	height: 50px;
+	background-color: rgba(100, 98, 98, 0.651);
+	margin: auto;
+	width: 80vw;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
 
 header .navbar {
@@ -378,5 +432,14 @@ main .row .prod6{
 	    background-position: inherit;
 	    background-size: contain; */
 		padding-right: 10px;
+	}
+	.h2{
+		font-size: 12px;
+	}
+	.p1{
+		font-size: 12px;
+	}
+	.p2{
+		font-size: 12px;
 	}
 }
